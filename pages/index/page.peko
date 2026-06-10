@@ -1,0 +1,19 @@
+style page_styles;
+
+class Index from ui::Page {
+	[state] counter: int;
+	constructor() => super() {
+		this.counter = 0;
+		this.set_styling(ui::Styling(page_styles));
+	}
+
+	fn render() => ui::Element {
+		return <div className="container">
+			<h1>${this.counter}</h1>
+			<div className="buttons">
+				<button onclick={this.counter -= 1}>-</button>
+				<button onclick={this.counter += 1}>+</button>
+				</div>
+			</div>;
+	}
+}

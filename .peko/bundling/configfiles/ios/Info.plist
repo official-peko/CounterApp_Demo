@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+    <key>CFBundleName</key><string>CounterApp</string>
+    <key>DTSDKName</key><string>iphoneos26.2</string>
+    <key>DTXcode</key><string>2630</string>
+    <key>DTSDKBuild</key><string>23C57</string>
+    <key>CFBundleVersion</key><string>v0.1.2</string>
+    <key>DTPlatformName</key><string>iphoneos</string>
+    <key>CFBundlePackageType</key><string>APPL</string>
+    <key>CFBundleShortVersionString</key><string>v0.1.2</string>
+    <key>CFBundleExecutable</key><string>CounterApp</string>
+    <key>CFBundleSupportedPlatforms</key>
+    <array><string>iPhoneOS</string></array>
+    <key>CFBundleInfoDictionaryVersion</key><string>6.0</string>
+    <key>ITSAppUsesNonExemptEncryption</key><false/>
+    <key>UISupportedInterfaceOrientations</key>
+    <array>
+        <string>UIInterfaceOrientationPortrait</string>
+        <string>UIInterfaceOrientationLandscapeLeft</string>
+        <string>UIInterfaceOrientationLandscapeRight</string>
+    </array>
+    <key>UIRequiredDeviceCapabilities</key>
+    <array><string>arm64</string></array>
+    <key>MinimumOSVersion</key><string>15</string>
+    <key>CFBundleIdentifier</key><string>com.pekodev.counter</string>
+    <key>UIDeviceFamily</key>
+    <array><integer>1</integer><integer>2</integer></array>
+    <key>DTPlatformVersion</key><string>26.2</string>
+    <key>DTXcodeBuild</key><string>17C529</string>
+    <key>DTPlatformBuild</key><string>23C57</string>
+    <key>UIRequiresFullScreen</key><true/>
+    <key>UILaunchScreen</key>
+    <dict><key>UIColorName</key><string>black</string></dict>
+    <key>CFBundleDevelopmentRegion</key><string>en</string>
+    <key>CFBundleIcons~ipad</key>
+    <dict>
+        <key>CFBundlePrimaryIcon</key>
+        <dict>
+            <key>CFBundleIconFiles</key>
+            <array><string>AppIcon60x60</string><string>AppIcon76x76</string></array>
+            <key>CFBundleIconName</key><string>AppIcon</string>
+        </dict>
+    </dict>
+    <key>CFBundleIcons</key>
+    <dict>
+        <key>CFBundlePrimaryIcon</key>
+        <dict>
+            <key>CFBundleIconFiles</key>
+            <array><string>AppIcon60x60</string></array>
+            <key>CFBundleIconName</key><string>AppIcon</string>
+        </dict>
+    </dict>
+</dict>
+</plist>

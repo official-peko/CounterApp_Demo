@@ -1,0 +1,13 @@
+import { Index } from pages::index;
+style root_styles;
+
+fn OnStart() {
+	app := ui::App("CounterApp", 1280, 800);
+
+	app.set_root_layout(closure(content: ui::Element) => ui::Element {
+		return content;
+	}, ui::Styling(root_styles));
+
+	app.add_page("/", Index());
+	app.run();
+}
